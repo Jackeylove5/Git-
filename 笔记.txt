@@ -1,0 +1,37 @@
+1. git管理工具
+	1. 安装
+	2. 单人操作
+		2.1 使用git init命令,在项目中初始化git
+		2.2 使用git status命令,查看暂存区状态
+			(红色文件证明在工作区,绿色文件正文在暂存区)
+		2.3 使用git add .命令,将工作区内容添加到暂存区
+		2.4 使用git commit -m '注释'命令,将暂存区内容存入仓库区
+			(如果出现Omit --global to set the identity only in this repository.
+			
+						fatal: unable to auto-detect email address (got 'admin@DESKTOP-M9JRPBK.(none)')
+						就设置用户名和邮箱)
+			git config --global  user.name "Username"
+			git config --global  user.email "Username@example.com"
+		2.5 使用git log,查看历史操作(git reflog)
+		2.6 使用git reset --hard HEAD~命令,回退工作区版本到上一个版本
+				(git reset --hard 版本号)
+		2.7 使用git checkout 文件名命令,撤销工作区内的内容
+		2.8 使用git checkout HEAD 文件名命令,撤销暂存区内的内容
+
+	3. 多人操作
+		3.1 创建项目
+		3.2 首次下载项目git clone 项目地址
+		3.3 将项目推送到远程仓库git push
+		3.4 再次加载项目git pull
+	4. pycharm的使用
+
+	5. 解决终端显示中文
+		set LESSCHARSET=utf-8
+
+
+
+
+
+
+
+
