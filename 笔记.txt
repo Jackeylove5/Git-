@@ -19,8 +19,11 @@
 		2.8 使用git checkout HEAD 文件名命令,撤销暂存区内的内容
 
 	3. 多人操作
-		3.1 创建项目
-		3.2 首次下载项目git clone 项目地址
+		3.1 创建项目 新建文件夹 cmd
+		3.2 首次下载项目git clone 项目地址    
+		(git add .)
+		(git commit -m)
+		(把上传的文件放入下载后的文件中)
 		3.3 将项目推送到远程仓库git push
 		3.4 再次加载项目git pull
 	4. pycharm的使用
