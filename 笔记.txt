@@ -27,7 +27,8 @@
 		3.3 将项目推送到远程仓库git push
 		3.4 再次加载项目git pull
 	4. pycharm的使用
-
+		VCS commit
+		VCS pull
 	5. 解决终端显示中文
 		set LESSCHARSET=utf-8
 
